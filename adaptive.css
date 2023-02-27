@@ -42,37 +42,38 @@
 
     header .center article .icons .icon_img {
         margin-right: 6px;
-        width: 13px;
-        height: 13px;
+        /* width: 13px;
+        height: 13px; */
     }
 
     header .center article h1 {
-        font-size: 46px;
+        /* font-size: 46px; */
         margin: 10px 0;
     }
 
-    header .center article span {
+    /* header .center article span {
         font-size: 12px;
-    }
+    } */
 
-    header .center article p {
+    /* header .center article p {
         font-size: 12px;
-    }
+    } */
 
     header .center aside {
         width: 30%;
     }
 
-    header .center aside img {
+    /* header .center aside img {
+        width: 100%;
         width: 178px;
         height: 207px;
-        /* max-width: 304px;
-        max-height: 356px; */
-    }
+        max-width: 304px;
+        max-height: 356px;
+    } */
 
     header .center aside .shadow {
-        width: 159px;
-        height: 24px;
+        /* width: 159px;
+        height: 24px; */
         margin-left: 18px;
         bottom: 15px;
     }
@@ -384,19 +385,23 @@
     }
 
     header .center aside {
-        width: 100%;
+        margin: 0 auto;
+        /* width: 100%;
         display: flex;
-        justify-content: right;
+        justify-content: center; */
     }
+    /* header .center aside .img_box {
+        width: 100%;
+    } */
 
-    header .center aside img {
+    /* header .center aside img {
         width: 142px;
         height: 175px;
-    }
+    } */
 
     header .center aside .shadow {
-        width: 128px;
-        height: 20px;
+        /* width: 128px;
+        height: 20px; */
         margin-left: 14px;
         bottom: 15px;
     }
